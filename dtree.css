@@ -17,12 +17,8 @@
 	max-height:25px;
 	max-width:25px;
 }
-.dtree a {
-	color: #333;
-	text-decoration: none;
-}
 .dtree a.node, .dtree a.nodeSel {
-	white-space: nowrap;
+	white-space: testedit;
 	padding: 1px 2px 1px 2px;
 }
 .dtree a.node:hover, .dtree a.nodeSel:hover {
