@@ -1,18 +1,21 @@
 /*--------------------------------------------------|
 | dTree 2.05 | www.destroydrop.com/javascript/tree/ |
 |---------------------------------------------------|
-| Copyright (c) 2002-2003 Geir Landr�               |
+| Copyright (c) 2002-2003 Geir Landr�              |
+| Modify By Jimmychwang                             |
 |--------------------------------------------------*/
 
 .dtree {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #666;
+	font-size: 14px;
+	color: #333333;
 	white-space: nowrap;
 }
 .dtree img {
 	border: 0px;
 	vertical-align: middle;
+	max-height:25px;
+	max-width:25px;
 }
 .dtree a {
 	color: #333;
@@ -29,6 +32,17 @@
 .dtree a.nodeSel {
 	background-color: #c0d2ec;
 }
+/*树的节点颜色样式*/
+.div1{display:inline;background:#E2C2DE;color: #333333;}
+.div2{display:inline;background:#E6E6F2;color: #333333;}
+.div3{display:inline;background:#C4E1E1;color: #333333;}
+.div4{display:inline;background:#DEDEBE;color: #333333;}
+.div5{display:inline;background:#EBD6D6;color: #333333;}
+.div0{display:inline;color: #333333;}
+
+/*
+ע�͵����Ա���ʾ������
 .dtree .clip {
 	overflow: hidden;
 }
+*/
